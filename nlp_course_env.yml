@@ -1,16 +1,18 @@
 name: nlp_course
 channels:
   - defaults
+  - conda-forge
 dependencies:
-  - pip=18.1
-  - spacy=2.0.16
-  - numpy=1.15.4
+  - python=3.9
+  - pip
+  - spacy
+  - numpy
   - keras
-  - matplotlib=3.0.1
-  - pandas=0.23.4
-  - nltk=3.3.0
-  - scikit-learn=0.20.1
-  - jupyter=1.0.0
-
-prefix: C:\Users\Marcial\Anaconda3\envs\nlp_course
-
+  - matplotlib
+  - pandas
+  - nltk
+  - scikit-learn
+  - jupyter
+  - pip:
+    - spacymoji
+    - wordcloud
